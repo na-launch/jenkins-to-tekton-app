@@ -1,10 +1,7 @@
-#!/usr/bin/env groovy
+#!/usr/bin/env groovy \n
 pipeline {
   agent any
 
   stages {
-    stage("Build") {
-  
-    }
   }
 }

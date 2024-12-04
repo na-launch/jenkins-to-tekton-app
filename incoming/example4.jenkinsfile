@@ -11,7 +11,7 @@ pipeline {
         stage('stage one') {
             steps {
                 script {
-                    tags_extra = "value_100"
+                    tags_extra = "value_1"
                 }
                 echo "tags_extra: ${tags_extra}"
             }
